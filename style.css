@@ -1,0 +1,352 @@
+/* Este es el codigo de la gestion documental*/
+body{
+  background: #c6c5c5c3;
+  position: relative;
+  height: -100px;
+}
+main{
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  margin: 0;
+  position: relative;
+  right:0px;
+}
+.encabezado{
+  background: hsl(19, 100%, 49%);
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  margin: 0;
+  position:relative;
+  right:-60px;
+}
+.BotonesDirección{
+  background:#ffffff;
+  border-radius: 10px;
+  width: 200px;
+  position:relative;
+  top:-40px;
+  right: -900px;
+  height: 50px;
+}
+.BotonISO{
+  width: 60px;
+  position: relative;;
+  right: -10px;
+  height: 48px;
+}
+.Busqueda {
+  background:#ffffff;
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  margin: 0;
+  position:relative;
+  right:-60px;
+  top: -19px;
+  height: 80px;
+}
+.imagen1 {
+  width:100px; 
+  height:70px;
+  position:relative;
+  right:-10px
+  }
+
+
+.titulo{
+   text-align:center;
+   position:relative;
+   top: 25px;
+   left: 60px;
+   color:rgb(255, 255, 255);
+   background: #041960;
+   border-radius: 20px;
+   width: 40%;
+  
+}
+
+.sub_titulo{
+  text-align:center;
+  font-weight:bold;
+  position:relative;
+  top:-80px;
+  right: -250px;
+  width:50%;
+  margin: 0;
+}
+
+.Clinicas{
+  position: relative;
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  margin: 0;
+  top: -140px;
+  right: -400px;
+  height: 110px;
+}
+#Clinicas{
+  width: 400px;
+  height: 20px;
+  top:70px;
+}
+#operar{
+  position: relative;
+  top: 50px;
+  right: -400px;
+}
+#mensaje{
+  position: relative;
+  top: 15px;
+  right: -500px;
+  background: #62ff00;
+  border-radius: 20px;
+  width: 90px;
+}
+
+.Estrategico{
+  position:relative;
+  right:-2%;
+  width:140px;
+  height:140px;
+  padding:1em;
+  display: flex ;
+}
+.Misional{
+  position:relative;
+  right:-2%;
+  width:-19px;
+  height:140px;
+  padding:1em;
+  display: flex ;
+}
+.Apoyo{
+  position:relative;
+  right:-2%;
+  width:140px;
+  height:140px;
+  padding:1em;
+  display: flex ;
+}
+
+.mejora{
+  background:#FFFFFF;
+  position:relative;
+  right:-11%;
+  top:15px;
+  width:140px;
+  height:140px;
+  display: flex ;
+}
+.contenedor{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  background:#5AC580;
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  margin: 0;
+  top:-150px;
+  height: 400px;
+  right: -60px;
+}
+.formularioEst{
+  padding:2em;
+  width:77px;
+  position:relative;
+  right:-20px;
+  top:-20px;
+  background:#aaaaaa;
+  height:150px;
+}
+.formularioMis{
+  padding:2em;
+  width:77px;
+  position:relative;
+  right:-20px;
+  top:-20px;
+  background:#aaaaaa;
+  height:150px;
+}
+.formularioApo{
+  padding:2em;
+  width:77px;
+  position:relative;
+  right:-20px;
+  top:-20px;
+  background:#aaaaaa;
+  height:150px;
+}
+.formularioMej{
+  padding:2em;
+  width:77px;
+  position:relative;
+  right:-20px;
+  top:8px;
+  background:#aaaaaa;
+  height:160px;
+}
+
+select{
+  position:relative;
+  left:-30px;
+  top:-60px;
+  width:140px;
+}
+h3{
+  position:relative;
+  top:-40px;
+}
+
+.selectEst{
+  position:relative;
+  right:-10px;
+  width:190px;
+  height:-10px;
+  
+}
+.Lista_Estra{
+  position:relative;
+  top:-190px;
+  right:-5%;
+  width:100px;
+  font-size: 15px;
+}
+.selectMis{
+  position:relative;
+  right:-10px;
+  width:190px;
+  height:-10px;
+  
+}
+
+.Lista_Mis{
+  position:relative;
+  top:-190px;
+  right:-5%;
+  width:100px;
+  font-size: 15px;
+}
+
+
+.selectApo{
+  position:relative;
+  right:-10px;
+  width:190px;
+  height:-10px;
+  
+}
+.Lista_Apo{
+  position:relative;
+  top:-190px;
+  right:-5%;
+  width:100px;
+  font-size: 15px;
+}
+.selectMej{
+  position:relative;
+  right:-10px;
+  width:190px;
+  height:-10px;
+  
+}
+
+.Lista_Mej{
+  position:relative;
+  top:-170px;
+  right:-5%;
+  width:100px;
+  font-size: 15px;
+}
+option{
+  width: 15px;
+}
+.pie_portada{
+  background: #041960;
+  position:relative;
+  width: 500vw;
+  max-width: 1150px;
+  min-width: 500px;
+  top:-150px;
+  right: -60px;
+  height: 100px;
+}
+.imagenPie{
+  width: 80px;
+  border-radius: 50px;
+  position: relative;
+  top:5px;
+  right: -1050px;
+  height: 90px;
+}
+
+/*lista pie de pagina*/
+
+nav{
+  max-width: 200px;
+  background-color: #0099ff;
+  font-size: 20px;
+  margin-top: 50px;
+  position: relative;
+  top: -140px;
+  right: -0px;
+  height: 40px;
+  border-radius:30px ;
+  
+}
+.MenuHorizonatal{
+  list-style: none;
+  display: flex;
+  
+}
+.ListasCom{
+  position: relative;
+  top: -15px;
+  left: -20px;
+}
+.MenuHorizonatal > li > a{
+  display: block;
+  padding: 15px 20px;
+  color:#ff5900;
+  text-decoration: none;
+}
+.MenuHorizonatal > li:hover{
+  background-color: rgb(0, 255, 234);
+  position: relative;
+  top: 5px;
+  height: 30px;
+  left: -20px;
+
+}
+.MenuVertical{
+  position: absolute;
+  display: none;
+  list-style: none;
+  width: 200px;
+  background-color: hsla(0, 0%, 0%, 0.5);
+}
+.MenuHorizonatal li:hover .MenuVertical{
+  display: block;
+}
+
+.MenuVertical li:hover{
+  background-color: black;
+}
+.MenuVertical li a{
+  display: block;
+  color: white;
+  padding: 10px 10px 10px 10px;
+  text-decoration: none;
+}
+.Copyright{
+  position: relative;
+  top: -170px;
+  right: -490px;
+  color: #ffffff;
+}
+@media screen and (max-width:480px){
+
+}

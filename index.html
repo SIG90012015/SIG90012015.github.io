@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header> 
+    <title>REPOSITORIO ISO 9001:2015</title>
+    <div class='encabezado'>
+      <h1 class="titulo">Gestión Documental</h1>
+      <div class="BotonesDirección">
+        <img class="BotonISO" src="https://static.wikia.nocookie.net/findtics/images/b/b4/Iso-logo.png/revision/latest?cb=20161122050140&path-prefix=es">
+        <img class="BotonISO" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJSGnlnY4XiaVPEWXm8zsvBQVJVO3NKLo8GNaFUAt4yOgvEYGrDx25wdJpivuxJvMD4E&usqp=CAU">
+        <a href="https://sonria.com.co/"> <img class="BotonISO"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcRBHydgy84_ZYLNVHNtzruFaMB_COfdWsUDR9F5sgCXONuEz6qkg2RfMmR6K5H_CuCY&usqp=CAU">
+        </a>
+     </div>
+    </div>
+    <div class="Busqueda"> 
+     <img src="https://sonria.com.co/wp-content/uploads/2020/11/pagina-sonria-propuesta-03.png" class="imagen1"/>
+   </div>
+   <h2 class="sub_titulo"> Escoge una clinica </h2>
+    <div class="Clinicas">
+      <form >
+        <select id="Clinicas">
+          <option value="0"></option> 
+          <option value="1">Cedritos</option> 
+          <option value="2">Unicentro</option>
+          <option value="3">Titan</option> 
+        </select>
+      </form>
+      <button value="verificar" id="operar" onclick="verificarValor()">verifircar</button>
+      <p id="mensaje"></p>
+     
+    </div>
+  </header>
+  
+  
+  <main>
+
+      <div class="contenedor">
+
+        <section class="selectEst">
+          <img src="https://th.bing.com/th/id/R.f7002a49c8158dcb139a107f7f4ec852?rik=HWiLzSEcXHcm6Q&riu=http%3a%2f%2fs3-us-west-2.amazonaws.com%2fwp-ccnegocios%2fwp-content%2fuploads%2f2020%2f10%2f26150220%2fAnalisis_pic1.jpg&ehk=uAfpqTt%2bNt4bEq7Sqi8BRabSTlEli2JysydQ1b4s2Ew%3d&risl=&pid=ImgRaw&r=0" class="Estrategico">
+          <section class="formularioEst"> 
+          <form>
+          <h3>Estrategico</h3>
+          <select>
+          <option></option> 
+          <option value="1">Direccion estrategica</option>
+          <option value="2">Cientifica y calidad</option>
+          <option value="3">Gestion comercial</option> 
+          </select>
+         </form>
+         </section>
+         <section class="Lista_Estra">
+          <ul>
+            <a id="ProdimientoEst" href=" "><li>Procedimiento</li></a>
+            <li>Caracterización</li>
+            <li>Indicadores</li>
+            <li>Mapa de riesgo</li>
+            <li>Manuales y protocolos</li>
+            <li>Flujogramas</li>
+          </ul>
+        </section>
+        </section>
+        
+        <section class="selectMis">
+        <img src="https://static.vecteezy.com/system/resources/previews/021/714/931/non_2x/process-icon-vector.jpg" class="Misional">
+        <section class="formularioMis">
+         <form>
+          <h3>Misional</h3>
+          <select id="OpcionM">
+          <option></option> 
+          <option value="1">Gestion administrativa</option>
+          <option value="2">Servicio y experiencia</option>
+          <option value="3">Prestamo de servicio Odontologico</option> 
+          </select>
+          </form>
+          </section>
+            <section class="Lista_Mis">
+              <ul>
+                <li>Procedimiento</li>
+                <li>Caracterización</li>
+                <li>Indicadores</li>
+                <li>Mapa de riesgo</li>
+                <li>Manuales y protocolos</li>
+                <li>Flujogramas</li>
+              </ul>
+            </section>
+        </section>
+        
+        <section class="selectApo">
+          <img src="https://th.bing.com/th/id/OIP.eJZW-hsHt_yDFBN7KgyQsAHaGj?rs=1&pid=ImgDetMain" class="Apoyo">
+          <section class="formularioApo">
+           <form>
+            <h3>Apoyo</h3>
+            <select>
+             <option></option>
+             <option value="1" >Gestión financiera</option>
+             <option value="2">Gestión infraestructura</option>
+             <option value="3">Tecnologia y procesos</option>
+             <option value="4">Gestion juridica</option>    
+             </select>
+             </form>
+          </section>
+          <section class="Lista_Apo">
+            <ul>
+              <li>Procedimiento</li>
+              <li>Caracterización</li>
+              <li>Indicadores</li>
+              <li>Mapa de riesgo</li>
+              <li>Manuales y protocolos</li>
+              <li>Flujogramas</li>
+            </ul>
+          </section>
+        </section>
+        
+        <section class="selectMej">
+          <img src="https://cdn-icons-png.flaticon.com/512/9876/9876324.png" class="mejora">
+          <section class="formularioMej">
+            <form> 
+              <h3>Mejora</h3>
+              <select>
+              <option></option>
+              <option value="1">Auditoria interna</option>  
+              </select>
+            </form>         
+           </section>
+          <section class="Lista_Mej">
+          <ul>
+            <li>Procedimiento</li>
+            <li>Caracterización</li>
+            <li>Indicadores</li>
+            <li>Mapa de riesgo</li>
+            <li>Manuales y protocolos</li>
+            <li>Flujogramas</li>
+          </ul>
+        </section> 
+      </section> 
+      </div>
+  </main>
+  
+  <footer class="pie_portada">
+     <div > <img class="imagenPie" src="https://th.bing.com/th/id/R.3709529676dbec2ff96874a08c2632d3?rik=1rMJ8Nr06Q5uDg&riu=http%3a%2f%2falencaavaluos.com%2fimg%2fmonigote_calidad.png&ehk=PuauU8DfR72jZGcx0PwTxb1aWOnQNckYaud0X3er7pY%3d&risl=&pid=ImgRaw&r=0 ">
+    </div>
+    <nav>
+      <ul class="MenuHorizonatal">
+        <li> <p class="ListasCom">COMPLEMENTOS</p>
+          <ul class="MenuVertical"> 
+            <li><a href="https://drive.google.com/drive/folders/1vIRyFyPyYyouBi18B9N_tjAE0S7RozNG?usp=drive_link">Sarlaft</a></li>
+            <li><a href="https://drive.google.com/drive/folders/1o3xfmkrBmfCdb5gLeZo0BKRHFeem1Etm?usp=drive_link">Sicof</a></li>
+            <li><a href="https://drive.google.com/file/d/1cPwV6DpKVYUpkUihnVuincKZ4wYoMlR1/view?usp=drive_link">ISO 9001:2015</a></li>
+            <li><a href="https://sonria.com.co/wp-content/uploads/2022/10/linea-etica.pdf">Oficial de cumplimiento</a></li>
+          </ul>
+        </li>
+      </ul>
+   </nav> 
+   <h4 class="Copyright">Copyright - Sonría 2024</h4>
+  </footer> 
+  
+  <script src="script.js"></script>
+</body>
+</html>
