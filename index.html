@@ -3,7 +3,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css"/>
+  <link rel="icon" href="https://cdn.icon-icons.com/icons2/1451/PNG/512/smilefolder_99339.png">
 </head>
 
 <body>
@@ -12,8 +13,8 @@
     <div class='encabezado'>
       <h1 class="titulo">Gestión Documental</h1>
       <div class="BotonesDirección">
-        <img class="BotonISO" src="https://static.wikia.nocookie.net/findtics/images/b/b4/Iso-logo.png/revision/latest?cb=20161122050140&path-prefix=es">
-        <img class="BotonISO" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJSGnlnY4XiaVPEWXm8zsvBQVJVO3NKLo8GNaFUAt4yOgvEYGrDx25wdJpivuxJvMD4E&usqp=CAU">
+        <a id="BotonISO" href="https://docs.google.com/spreadsheets/d/1GoA8CkbVQMzQEpBm2-xNkFzdM-GcVfN7/edit?usp=sharing&ouid=112930602019969403945&rtpof=true&sd=true"><img class="BotonISO" src="https://aprendiendocalidadyadr.com/wp-content/uploads/2010/01/iso-154533_640.png"></a>
+        <a id="BotonISO" href="https://drive.google.com/drive/folders/1_Cdt_KEEeelu6X25PzlajowLPyUJFmQw?usp=drive_link"><img class="BotonISO" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcShJSGnlnY4XiaVPEWXm8zsvBQVJVO3NKLo8GNaFUAt4yOgvEYGrDx25wdJpivuxJvMD4E&usqp=CAU"></a>
         <a href="https://sonria.com.co/"> <img class="BotonISO"  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEcRBHydgy84_ZYLNVHNtzruFaMB_COfdWsUDR9F5sgCXONuEz6qkg2RfMmR6K5H_CuCY&usqp=CAU">
         </a>
      </div>
@@ -47,22 +48,24 @@
           <section class="formularioEst"> 
           <form>
           <h3>Estrategico</h3>
-          <select>
+          <select id="EstrategicoProces">
           <option></option> 
           <option value="1">Direccion estrategica</option>
-          <option value="2">Cientifica y calidad</option>
-          <option value="3">Gestion comercial</option> 
+          <option value="2">Habilitación</option>
+          <option value="3">Calidad</option>
+          <option value="4">Gestion comercial</option> 
           </select>
          </form>
          </section>
          <section class="Lista_Estra">
           <ul>
-            <a id="ProdimientoEst" href=" "><li>Procedimiento</li></a>
-            <li>Caracterización</li>
-            <li>Indicadores</li>
-            <li>Mapa de riesgo</li>
-            <li>Manuales y protocolos</li>
-            <li>Flujogramas</li>
+            <a id="ProcedimientoEst" href=" "><li>Procedimiento</li></a>
+            <a id="CaracterizacionEst" href=" "><li>Caracterización</li></a>
+            <a id="IndicadoresEst" href=" "><li>Indicadores</li></a>
+            <a id="RiesgoEst" href=" "><li>Mapa de riesgo</li></a>
+            <a id="ManualesEst" href=" "><li>Manuales y protocolos</li></a>
+            <a id="FlujogramaEst" href=" "><li>Flujogramas</li></a>
+            <a id="FormatosEst" href=" "><li>Formatos</li></a>
           </ul>
         </section>
         </section>
@@ -88,6 +91,7 @@
                 <li>Mapa de riesgo</li>
                 <li>Manuales y protocolos</li>
                 <li>Flujogramas</li>
+                <a><li>Formatos</li></a>
               </ul>
             </section>
         </section>
@@ -97,23 +101,26 @@
           <section class="formularioApo">
            <form>
             <h3>Apoyo</h3>
-            <select>
+            <select id="EstrategicoApoy">
              <option></option>
              <option value="1" >Gestión financiera</option>
              <option value="2">Gestión infraestructura</option>
              <option value="3">Tecnologia y procesos</option>
-             <option value="4">Gestion juridica</option>    
+             <option value="4">Gestion juridica</option> 
+             <option value="5">Inventarios y abastecimiento</option>
+             <option value="6">Compras administrartiva</option>      
              </select>
              </form>
           </section>
           <section class="Lista_Apo">
             <ul>
-              <li>Procedimiento</li>
-              <li>Caracterización</li>
-              <li>Indicadores</li>
-              <li>Mapa de riesgo</li>
-              <li>Manuales y protocolos</li>
-              <li>Flujogramas</li>
+              <a id="ProcedimientoApy" href=" "><li>Procedimiento</li></a>
+            <a id="CaracterizacionApy" href=" "><li>Caracterización</li></a>
+            <a id="IndicadoresApy" href=" "><li>Indicadores</li></a>
+            <a id="RiesgoApy" href=" "><li>Mapa de riesgo</li></a>
+            <a id="ManualesApy" href=" "><li>Manuales y protocolos</li></a>
+            <a id="FlujogramaApy" href=" "><li>Flujogramas</li></a>
+            <a id="FormatosApy" href=" "><li>Formatos</li></a>
             </ul>
           </section>
         </section>
@@ -137,6 +144,7 @@
             <li>Mapa de riesgo</li>
             <li>Manuales y protocolos</li>
             <li>Flujogramas</li>
+            <a><li>Formatos</li></a>
           </ul>
         </section> 
       </section> 
@@ -144,7 +152,7 @@
   </main>
   
   <footer class="pie_portada">
-     <div > <img class="imagenPie" src="https://th.bing.com/th/id/R.3709529676dbec2ff96874a08c2632d3?rik=1rMJ8Nr06Q5uDg&riu=http%3a%2f%2falencaavaluos.com%2fimg%2fmonigote_calidad.png&ehk=PuauU8DfR72jZGcx0PwTxb1aWOnQNckYaud0X3er7pY%3d&risl=&pid=ImgRaw&r=0 ">
+    <div > <img class="imagenPie" src="https://th.bing.com/th/id/R.3709529676dbec2ff96874a08c2632d3?rik=1rMJ8Nr06Q5uDg&riu=http%3a%2f%2falencaavaluos.com%2fimg%2fmonigote_calidad.png&ehk=PuauU8DfR72jZGcx0PwTxb1aWOnQNckYaud0X3er7pY%3d&risl=&pid=ImgRaw&r=0 ">
     </div>
     <nav>
       <ul class="MenuHorizonatal">
@@ -157,8 +165,8 @@
           </ul>
         </li>
       </ul>
-   </nav> 
-   <h4 class="Copyright">Copyright - Sonría 2024</h4>
+    </nav> 
+    <h4 class="Copyright">Copyright - Sonría 2024</h4>
   </footer> 
   
   <script src="script.js"></script>
