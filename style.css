@@ -99,11 +99,11 @@ main{
 }
 #mensaje{
   position: relative;
-  top: 15px;
-  right: -500px;
+  top: 5px;
+  right: -480px;
   background: #62ff00;
   border-radius: 20px;
-  width: 90px;
+  width: 100px;
 }
 
 .Estrategico{
@@ -113,6 +113,7 @@ main{
   height:140px;
   padding:1em;
   display: flex ;
+  border-radius: 20px;
 }
 .Misional{
   position:relative;
@@ -121,6 +122,7 @@ main{
   height:140px;
   padding:1em;
   display: flex ;
+  border-radius: 20px;
 }
 .Apoyo{
   position:relative;
@@ -129,6 +131,7 @@ main{
   height:140px;
   padding:1em;
   display: flex ;
+  border-radius: 20px;
 }
 
 .mejora{
@@ -139,6 +142,7 @@ main{
   width:140px;
   height:140px;
   display: flex ;
+  border-radius: 5px;
 }
 .contenedor{
   position: relative;
@@ -160,7 +164,8 @@ main{
   right:-20px;
   top:-20px;
   background:#aaaaaa;
-  height:150px;
+  height:170px;
+  border-radius: 5px;
 }
 .formularioMis{
   padding:2em;
@@ -169,7 +174,9 @@ main{
   right:-20px;
   top:-20px;
   background:#aaaaaa;
-  height:150px;
+  height:170px;
+  border-radius: 5px;
+  
 }
 .formularioApo{
   padding:2em;
@@ -178,7 +185,8 @@ main{
   right:-20px;
   top:-20px;
   background:#aaaaaa;
-  height:150px;
+  height:170px;
+  border-radius: 5px;
 }
 .formularioMej{
   padding:2em;
@@ -187,7 +195,8 @@ main{
   right:-20px;
   top:8px;
   background:#aaaaaa;
-  height:160px;
+  height:175px;
+  border-radius: 5px;
 }
 
 select{
@@ -195,6 +204,7 @@ select{
   left:-30px;
   top:-60px;
   width:140px;
+  border-radius: 10px;
 }
 h3{
   position:relative;
@@ -206,11 +216,10 @@ h3{
   right:-10px;
   width:190px;
   height:-10px;
-  
 }
 .Lista_Estra{
   position:relative;
-  top:-190px;
+  top:-210px;
   right:-5%;
   width:100px;
   font-size: 15px;
@@ -225,7 +234,7 @@ h3{
 
 .Lista_Mis{
   position:relative;
-  top:-190px;
+  top:-210px;
   right:-5%;
   width:100px;
   font-size: 15px;
@@ -241,7 +250,7 @@ h3{
 }
 .Lista_Apo{
   position:relative;
-  top:-190px;
+  top:-210px;
   right:-5%;
   width:100px;
   font-size: 15px;
@@ -256,13 +265,13 @@ h3{
 
 .Lista_Mej{
   position:relative;
-  top:-170px;
+  top:-186px;
   right:-5%;
   width:100px;
   font-size: 15px;
 }
 option{
-  width: 15px;
+  width: 5px;
 }
 .pie_portada{
   background: #041960;
