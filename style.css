@@ -334,8 +334,9 @@ nav{
   position: absolute;
   display: none;
   list-style: none;
-  width: 200px;
+  width: 150px;
   background-color: hsla(0, 0%, 0%, 0.5);
+  top: 30px;
 }
 .MenuHorizonatal li:hover .MenuVertical{
   display: block;
@@ -347,12 +348,23 @@ nav{
 .MenuVertical li a{
   display: block;
   color: white;
-  padding: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
   text-decoration: none;
+}
+
+.codigoCalidad{
+  color: #FFFFFF;
+  position: relative;
+  top: -130px;
+  right: -500px;
+  width: 150px;
+}
+.codigoCalidad p p{
+  margin:0 ;
 }
 .Copyright{
   position: relative;
-  top: -170px;
+  top: -190px;
   right: -490px;
   color: #ffffff;
 }
