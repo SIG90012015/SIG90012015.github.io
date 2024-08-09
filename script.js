@@ -79,6 +79,6 @@ function verificarValor(){
 function adicionar(){
     const boton=document.querySelector(".Ayuda");
     boton.addEventListener('click', () => {
-        confirm("correos gestordecalidad2@sonria.com.co, practicante.sig@sonria.com.co");
-    });
+        alert("correos gestordecalidad2@sonria.com.co, practicante.sig@sonria.com.co")
+    }, { once: true });
 }
